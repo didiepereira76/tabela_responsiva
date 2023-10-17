@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br" title="Coding design">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="table">
+        <section class="table__header">
+            <h1>Diversos</h1>
+
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                    <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                    <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                    <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Agente <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Hora Inicial <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Solicitante <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Viatura <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Motivo <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Dados <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Rennan </td>
+                        <td> 11:00</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de habilitação </td>
+                        <td> <strong> GM Corsa Prata EDR1515 </strong></td>
+                        <td>
+                            <p class="status delivered"> Pátio </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Pereira </td>
+                        <td> 11:25</td>
+                        <td> CET </td>
+                        <td> 834 </td>
+                        <td> Apreensão </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status cancelled">Cancelado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Janaína </td>
+                        <td> 12:05</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de licenciamento </Ri:a>
+                        </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status shipped">Retirado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Sheila </td>
+                        <td> 12:18</td>
+                        <td> CET </td>
+                        <td> 521 </td>
+                        <td> Calçada </Ri:a>
+                        </td>
+                        <td> <strong> FIAT Freemont Preto ERW7575 </strong></td>
+                        <td>
+                            <p class="status pending">Agendado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Rennan </td>
+                        <td> 11:00</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de habilitação </td>
+                        <td> <strong> GM Corsa Prata EDR1515 </strong></td>
+                        <td>
+                            <p class="status delivered"> Pátio </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Pereira </td>
+                        <td> 11:25</td>
+                        <td> CET </td>
+                        <td> 834 </td>
+                        <td> Apreensão </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status cancelled">Cancelado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Janaína </td>
+                        <td> 12:05</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de licenciamento </Ri:a>
+                        </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status shipped">Retirado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Sheila </td>
+                        <td> 12:18</td>
+                        <td> CET </td>
+                        <td> 521 </td>
+                        <td> Calçada </Ri:a>
+                        </td>
+                        <td> <strong> FIAT Freemont Preto ERW7575 </strong></td>
+                        <td>
+                            <p class="status pending">Agendado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Rennan </td>
+                        <td> 11:00</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de habilitação </td>
+                        <td> <strong> GM Corsa Prata EDR1515 </strong></td>
+                        <td>
+                            <p class="status delivered"> Pátio </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Pereira </td>
+                        <td> 11:25</td>
+                        <td> CET </td>
+                        <td> 834 </td>
+                        <td> Apreensão </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status cancelled">Cancelado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Janaína </td>
+                        <td> 12:05</td>
+                        <td> PM </td>
+                        <td> 6251 </td>
+                        <td> Falta de licenciamento </Ri:a>
+                        </td>
+                        <td> <strong> BMW X5 Branco DES8989 </strong></td>
+                        <td>
+                            <p class="status shipped">Retirado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Sheila </td>
+                        <td> 12:18</td>
+                        <td> CET </td>
+                        <td> 521 </td>
+                        <td> Calçada </Ri:a>
+                        </td>
+                        <td> <strong> FIAT Freemont Preto ERW7575 </strong></td>
+                        <td>
+                            <p class="status pending">Agendado</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
