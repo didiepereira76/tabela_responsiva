@@ -175,7 +175,7 @@ tbody tr.hide td img {
     text-align: center;
 }
 
-.status.delivered {
+.status.towed {
     background-color: #86e49d;
     color: #006b21;
 }
@@ -189,7 +189,7 @@ tbody tr.hide td img {
     background-color: #ebc474;
 }
 
-.status.shipped {
+.status.removed {
     background-color: #6fcaea;
 }
 
